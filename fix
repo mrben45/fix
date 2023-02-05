@@ -1,0 +1,67 @@
+clear
+echo ""
+echo " MR45CARD"
+echo ""
+sleep 5
+echo "fix error!"
+sleep 1.0
+pkg update -y && pkg upgrade -y
+apt update -y && apt upgrade -y
+pkg install figlet
+sleep 1.0
+clear
+pkg install python
+pkg install python2
+pkg install php
+figlet Fix
+pip install --upgrade pip
+echo "ERROR AKAN DIPERBAIKI"
+sleep 3
+clear
+figlet Fix
+pip install --upgrade python-pip
+echo "ERROR AKAN DIPERBAIKI"
+sleep 3
+clear
+pkg install git curl wget
+pkg install ruby
+gem install lolcat
+pip install rich requests mechanice bs4
+pip2 install rich
+echo "ERROR AKAN DIPERBAIKI"
+sleep 3
+clear
+pip2 install requests
+echo "ERROR AKAN DIPERBAIKI"
+sleep 3
+clear
+pip2 install mechanize
+echo "ERROR AKAN DIPERBAIKI"
+sleep 3
+clear
+pip2 install bs4
+echo "ERROR AKAN DIPERBAIKI"
+sleep 3
+clear
+pip install stdiomask keyboard pv
+pip install wordlist
+figlet LOADING
+wordlist -m 6 -M 8 *****# -o system.txt
+cat system.txt
+rm system.txt
+sleep 3
+clear
+apt autoremove -y && apt autoclean -y
+sleep 1.0
+echo ""
+echo "selesai memperbaiki system error"
+echo ""
+sleep 1.0
+clear
+figlet DONE
+echo "silahkan relog termux anda"
+echo "         ENJOY..."
+echo ""
+rm fix
+cd
+rmdir fix
